@@ -1,6 +1,6 @@
 #Send an SMS in Java
 
-This tutorial will walk you through building a simple Java project that uses Sinch to send an SMS. You can find the finished project on our Github at [github.com/sinch/java-sms-tutorial](http://www.github.com/sinch/java-sms-tutorial)
+This tutorial will walk you through building a simple Java SMS project that uses Sinch to send an SMS. You can find the finished project on our Github at [github.com/sinch/java-sms-tutorial](http://www.github.com/sinch/java-sms-tutorial)
 
 ##Setup
 
@@ -67,7 +67,7 @@ Start by creating a new class - I'll name mine **Sms.java**. To keep things simp
 	
 	}
 	
-That's all! Run the project, and you will see "Hello, world!" appear as an SMS to the phone number you entered. 
+That's all! Run the project, and you will see "Hello, world!" appear as an SMS to the phone number you entered. That's how easy is it to send Java SMS with Sinch.
 
 **Note about sending quotes in your message**: If you want to send a message like **Jordan says "hi"**, you will need to put 3 backslashes before the quotes that you want to show up in the message.
 
