@@ -14,8 +14,6 @@ You will need to download and add the commons codec library to your Eclipse proj
 
 Start by creating a new class - I'll name mine **Sms.java**. To keep things simple, I put the code to send an SMS in the **main** function. To make this work for you, substitute in a phone number (in [E.164 format](http://en.wikipedia.org/wiki/E.164)) to send the message to, your app key, and your app secret. 
 
-**IMPORTANT:** If you are reading this on the Sinch website, some of the quotes below are getting escaped where they shouldn't be. Please see the correct code on our Github [https://github.com/sinch/java-sms-tutorial](https://github.com/sinch/java-sms-tutorial)
-
 	import java.io.BufferedReader;
 	import java.io.IOException;
 	import java.io.InputStreamReader;
